@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/Healthicity/http_api.git
-  revision: 6166016acf21e924a5d601e409b8b8c41c7e8d37
+  revision: ba1797c9d7737808059e4767333b197571922adb
   specs:
     http_api (1.0.0)
       activesupport (~> 6.0, < 6.1)
