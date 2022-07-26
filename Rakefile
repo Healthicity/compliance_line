@@ -1,7 +1,6 @@
 require "bundler/gem_tasks"
 require "rake/testtask"
 
-desc 'Default: run tests for all ORMs.'
 task default: :test
 
 desc 'Run unit tests.'
