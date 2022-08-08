@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   spec.license     = "MIT"
   spec.required_ruby_version = '~> 2.6'
   
-  spec.add_runtime_dependency 'activesupport', '>= 6.0.0', '< 7'
+  spec.add_runtime_dependency 'activesupport'
   spec.add_development_dependency 'webmock', '~> 3'
   spec.add_development_dependency 'rake', '~> 12'
   spec.add_development_dependency 'test-unit'
