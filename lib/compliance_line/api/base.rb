@@ -1,4 +1,5 @@
 require 'http_api'
+
 module ComplianceLine
   module Api
     class Base
@@ -16,7 +17,7 @@ module ComplianceLine
       private
 
       def http_client
-        HTTP.timeout(:per_operation, :write => 60, :connect => 60, :read => 60)
+        HTTP.timeout(write: 60, connect: 60, read: 60)
       end
 
     end
