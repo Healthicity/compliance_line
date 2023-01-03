@@ -1,16 +1,16 @@
 GIT
   remote: https://github.com/Healthicity/http_api.git
-  revision: 3994a6c6c23f895e7bb66d1ba2576ad520f27021
-  tag: 2.0.0
+  revision: 29a1f5f8dd7dbd7336af988aa4fec84f68fc5ffb
+  tag: 2.0.1
   specs:
-    http_api (1.0.0)
+    http_api (2.0.1)
       activesupport
       http (~> 5)
 
 PATH
   remote: .
   specs:
-    compliance_line (1.0.0)
+    compliance_line (2.0.1)
       activesupport
 
 GEM
@@ -46,7 +46,7 @@ GEM
     llhttp-ffi (0.4.0)
       ffi-compiler (~> 1.0)
       rake (~> 13.0)
-    minitest (5.16.3)
+    minitest (5.17.0)
     power_assert (2.0.1)
     public_suffix (5.0.0)
     rake (13.0.6)
